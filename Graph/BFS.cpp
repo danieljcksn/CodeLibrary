@@ -3,11 +3,9 @@
 using namespace std;
 
 typedef vector<vector<int>> graph;
-vector<bool> visited;
-vector<int> cities;
 
 void bfs(int root, graph& g){
-    visited.assign(g.size()+1, false);
+    vector<bool> visited(g.size()+1, false);
 
     queue<int> q;
     q.push(root);
