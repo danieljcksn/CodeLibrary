@@ -1,5 +1,5 @@
 # CodeLibrary
-A collection of well-known and useful algorithms for competitive programming. :computer:
+A collection of well-known and useful algorithms for competitive programming (written in C++). :computer:
 
 ## Content
 ### Data Structures
