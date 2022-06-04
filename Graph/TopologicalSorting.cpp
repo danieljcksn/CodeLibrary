@@ -24,7 +24,7 @@ void dfs(const graph& g, int v){
     ans.push_back(v);
 }
 
-void topologicalSort(const graph& g){
+void topologicalSorting(const graph& g){
     int n = g.size();
     ans.clear();
     visited.assign(n, false);
@@ -53,7 +53,7 @@ int main(){
         g[--a].push_back(--b);
     }    
 
-    topologicalSort(g);
+    topologicalSorting(g);
 
     if(cicle) cout << "Has a cycle!\n";
     else{
