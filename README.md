@@ -7,6 +7,7 @@ A collection of well-known and useful algorithms for competitive programming. :c
 ### Graph Theory
 + Bicoloring
 + Breadth-First Search
++ Depth-First Search
 + Cycle Detection
 + Topological Sorting
 ### Number Theory
